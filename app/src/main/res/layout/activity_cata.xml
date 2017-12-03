@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:autofit="http://schemas.android.com/apk/android"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.AboutActivity"
     tools:ignore="NamespaceTypo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,9 +28,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Cataract Department  ::" />
+                android:background="@color/appback"
+                android:text=":: Cataract Department  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -57,9 +57,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:background="#4dffb8"
-                android:text=":: Consultants ::" />
+                android:background="@color/appback"
+                android:text=":: Consultants ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
 
@@ -225,9 +225,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Services  ::" />
+                android:background="@color/appback"
+                android:text=":: Services  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -253,9 +253,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Facilities  ::" />
+                android:background="@color/appback"
+                android:text=":: Facilities  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView

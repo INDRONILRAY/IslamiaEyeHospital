@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:autofit="http://schemas.android.com/apk/android"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.AboutActivity"
     tools:ignore="NamespaceTypo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,22 +26,23 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Overiew  ::" />
+                android:background="@color/appback"
+                android:text=":: Overiew  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
             android:layout_width="wrap_content"
-            android:layout_height="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:maxLines="4"
+            android:maxLines="20"
             android:paddingTop="6dp"
-            android:text="@string/settingdes"
+            android:text="@string/feedback"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -55,11 +56,12 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Services  ::" />
+                android:background="@color/appback"
+                android:text=":: Growth  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <ImageView
@@ -68,38 +70,8 @@
             android:layout_height="200dp"
             android:contentDescription="TODO"
             android:scaleType="centerCrop"
-            app:srcCompat="@mipmap/ic_nav_background" />
+            app:srcCompat="@drawable/growth" />
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="76dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:maxLines="4"
-            android:paddingTop="6dp"
-            android:text="@string/settingdes"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
-
-
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="76dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:maxLines="4"
-            android:paddingTop="6dp"
-            android:text="@string/settingdes"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
 
     </LinearLayout>
 

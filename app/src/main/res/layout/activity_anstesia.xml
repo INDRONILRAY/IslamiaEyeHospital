@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:autofit="http://schemas.android.com/apk/android"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.AboutActivity"
     tools:ignore="NamespaceTypo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,9 +27,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Anaesthesia  ::" />
+                android:background="@color/appback"
+                android:text=":: Anaesthesia  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -55,9 +55,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:background="#4dffb8"
-                android:text=":: Services &amp; Facilities ::" />
+                android:background="@color/appback"
+                android:text=":: Services &amp; Facilities ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -83,9 +83,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:background="#4dffb8"
-                android:text=":: Consultants ::" />
+                android:background="@color/appback"
+                android:text=":: Consultants ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
 

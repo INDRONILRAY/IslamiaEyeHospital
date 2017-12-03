@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:autofit="http://schemas.android.com/apk/android"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.AboutActivity"
     tools:ignore="NamespaceTypo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,9 +26,10 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
+                android:background="@color/appback"
                 android:text="::  Pathology and Microbiology  ::"
                 android:textAllCaps="false" />
         </LinearLayout>
@@ -55,11 +56,12 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Services  ::" />
+                android:background="@color/appback"
+                android:text=":: Services  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <ImageView

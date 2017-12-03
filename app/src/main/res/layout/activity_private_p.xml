@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:autofit="http://schemas.android.com/apk/android"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.AboutActivity"
     tools:ignore="NamespaceTypo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,11 +25,12 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
-                android:textAllCaps="false"
-                android:text=":: Overiew  ::" />
+                android:background="@color/appback"
+                android:text=":: Overiew  ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -53,11 +54,12 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:background="#4dffb8"
-                android:text=":: Services &amp; Facilities ::" />
+                android:background="@color/appback"
+                android:text=":: Services &amp; Facilities ::"
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <me.grantland.widget.AutofitTextView
@@ -81,9 +83,10 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4dffb8"
+                android:background="@color/appback"
                 android:text=":: Image ::"
                 android:textAllCaps="false" />
         </LinearLayout>

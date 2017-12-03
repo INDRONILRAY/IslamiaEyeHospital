@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.DoctorsActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.DoctorsActivity"
     tools:showIn="@layout/app_bar_doctors">
 
     <ListView

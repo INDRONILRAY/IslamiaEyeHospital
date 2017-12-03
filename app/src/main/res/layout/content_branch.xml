@@ -6,31 +6,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.chinabanglait.islamiaeyehospital.BranchActivity"
+    tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.BranchActivity"
     tools:showIn="@layout/app_bar_branch">
 
     <Button
         android:id="@+id/button"
-        android:onClick="ChangeFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/appback"
+        android:onClick="ChangeFragment"
+        android:layout_marginBottom="5dp"
         android:text="Barisal Branch" />
 
     <Button
         android:id="@+id/button2"
-        android:onClick="ChangeFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/appback"
+        android:onClick="ChangeFragment"
+        android:layout_marginBottom="5dp"
         android:text="Naogaon Brach" />
 
     <Button
         android:id="@+id/button3"
-        android:onClick="ChangeFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/appback"
+        android:onClick="ChangeFragment"
         android:text="jamalpur branch" />
     <fragment
-        android:name="com.example.chinabanglait.islamiaeyehospital.FragmentOne"
+        android:name="com.Heavenking.chinabanglait.islamiaeyehospital.FragmentOne"
         android:id="@+id/fragment_place"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></fragment>

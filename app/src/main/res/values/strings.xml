@@ -1,5 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">IIEISH</string>
+    <string name="app_name">Islamia Eye Hospital</string>
+    <string name="aboutdev">
+        Engineered By : INDRO NIl RAY\n
+                        Md. Shamim Hossain\n
+                        Md. Nazrul Islam \n\n
+        Designed &amp; Planner By : Md. Wadud Bin Mozib ulla\n
+                   Developed By : China Bangla IT Ltd.\n\n
+                    Connect With US\n
+        Chairman Phone : 01711734776,01919338862\n
+                 Email : chinabanglaitltd@gmail.com\n
+        CopyRight © China Bangla IT Ltd all Rights Reserved.
+    </string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -8,7 +19,8 @@
     <string name="title_activity_branch">Islamia Eye Hospital</string>
 
     <string name="title_activity_doctors">Islamia Eye Hospital</string>
-    <string name="title_activity_settings">Islamia Eye Hospital</string>
+    <string name="multilines">Medical/Nursing\nParamedical Service</string>
+    <string name="multilines2">paediatric Ophthalmology\nStrabismus</string>
     <string name="title_activity_setting">Islamia Eye Hospital</string>
     <string name="settingdes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
     <string name="about">The Iconic name Islamia in the eye service field denotes ispahani islamia eye institute and hospital (IIEIH),the largest and speciality eye hospital in Bangladesh which was established in 1960 by M A ispahani,the hreat industrialist and philanthropist of the subspecialist.it is non-profit organization with aprice eangeaffordable for all class of people.The twohundred bedded hospital is reequipped with all modern equipmentand advanced technologies and serves 2000 patients and performsaround 150 surgeries daily.About 100 doctors,xxx optometrists,xxx nurses,xxx technician with total workforce of 1000 staffs are dedicated to the service.The education part of the hospital happens to become the largest Eye Institute,which runs 16 different courses and training programs.Till to date the instituteproduced xx specialists,xx surgeones,xxx residents and xxx person of another category.The Hospital has branches at jamalpur,Barisal and naogaon.A number of Vision centers work in the community level under the branches.</string>
@@ -336,4 +348,9 @@ Our trauma and emergency team offers emergency treatment for urgent, sight-threa
        In case of trauma (open or closed globe injury), patients are referred to the trauma unit where they are assessed by consultants and treated accordingly.
 		Please note that we are not a general emergency and can only help with eye conditions
     </string>
+    <string name="settings">
+Islamia, as it has been known for over 50 years, is the largest multispecialty eye hospital in Bangladesh.\n The emphasis is on quality eye care for all socio-economic sections of society. The treatment for every patient is of the same quality, though the facilities vary according to the choice the patient makes. \n There are general facilities at very low cost, as well as private facilities, which are more comfortable and upscale.
+    </string>
+    <string name="feedback">
+Islamia, as it has been known for over 50 years, is the largest multispecialty eye hospital in Bangladesh. The emphasis is on quality eye care for all socio-economic sections of society. \n The treatment for every patient is of the same quality, though the facilities vary according to the choice the patient makes.\n There are general facilities at very low cost, as well as private facilities, which are more comfortable and upscale.    </string>
 </resources>
