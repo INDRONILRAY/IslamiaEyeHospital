@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.chinabanglait.islamiaeyehospital.FragmentOne">
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal|center"
+        android:maxLines="2"
+        android:paddingTop="6dp"
+        android:text="Address Information : Jamalpur, Satadal Amlapara, Jamalpur-2000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        autofit:minTextSize="17sp"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/autofitTextView3" />
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:gravity="top"
+        android:maxLines="2"
+        android:paddingTop="6dp"
+        android:text="Phone Number : 0981-64535"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        autofit:minTextSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
+

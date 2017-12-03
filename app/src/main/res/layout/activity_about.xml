@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:autofit="http://schemas.android.com/apk/android"
+    tools:context="com.example.chinabanglait.islamiaeyehospital.AboutActivity"
+    tools:ignore="NamespaceTypo">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_nav_background" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appback"
+        android:text="About Us"
+        android:textStyle="bold" />
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLines="30"
+        android:text="@string/about"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        autofit:minTextSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appback"
+        android:text="More Info Call or Sms "
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/phonecall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:floating_background_color="@color/colorPrimary"
+        app:floating_icon="@drawable/phonecall"
+        app:floating_title="Phone -> 09610-998333  "
+        app:floating_title_color="@android:color/white" />
+
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/sendsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:floating_background_color="@color/colorPrimary"
+        app:floating_icon="@drawable/sms"
+        app:floating_title="  Send Email  "
+        app:floating_title_color="@android:color/white" />
+
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

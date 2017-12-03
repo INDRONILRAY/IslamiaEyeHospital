@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/app_bar_main"
+        android:background="@color/appback"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        xmlns:autofit="http://schemas.android.com/apk/android"
+        tools:context="com.example.chinabanglait.islamiaeyehospital.MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:background="@drawable/slide1"
+                android:layout_margin="5dp">
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v4.view.ViewPager>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:tooltipText="Service"
+                    app:srcCompat="@drawable/info"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"/>
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="About us"
+                    app:srcCompat="@drawable/about"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Eye Tips"
+                    app:srcCompat="@drawable/eye" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/service"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Service"
+                    android:tooltipText="Service" />
+
+                <TextView
+                    android:id="@+id/about"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:tooltipText="About Us" />
+
+                <TextView
+                    android:id="@+id/eyetips"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Eye Tips"
+                    android:tooltipText="Eye Tips" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Consultants"
+                    app:srcCompat="@drawable/seo"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Appointment"
+                    app:srcCompat="@drawable/time" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Web Link"
+                    app:srcCompat="@drawable/weblink" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Consultants"
+                    android:tooltipText="Service" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Appoinment"
+                    android:tooltipText="Appointment" />
+
+                <TextView
+                    style="@style/GreenText"
+                    android:id="@+id/textView6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Web Links"
+                    android:tooltipText="Web Links" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <ImageButton
+                    android:id="@+id/gallaryimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#90CAF9"
+                    android:tooltipText="Location"
+                    app:srcCompat="@drawable/gallery" />
+
+
+                <ImageButton
+                    android:id="@+id/faqsimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#90CAF9"
+                    android:tooltipText="Branch"
+                    app:srcCompat="@drawable/question" />
+
+                <ImageButton
+                    android:id="@+id/feedbackimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#90CAF9"
+                    android:tooltipText="Exit"
+                    app:srcCompat="@drawable/feedback" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/gallary"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gallary"
+                    android:tooltipText="Service" />
+
+                <TextView
+                    android:id="@+id/faqs"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Faqs"
+                    android:tooltipText="Branch" />
+
+                <TextView
+                    android:id="@+id/feedback"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Feedback"
+                    android:tooltipText="Exit" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Location"
+                    app:srcCompat="@drawable/map" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Branch"
+                    app:srcCompat="@drawable/branch" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="#90CAF9"
+                    android:tooltipText="Exit"
+                    app:srcCompat="@drawable/exit" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/location"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:tooltipText="Service" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Branch"
+                    android:tooltipText="Branch" />
+
+                <TextView
+                    android:id="@+id/exit"
+                    style="@style/GreenText"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exit"
+                    android:tooltipText="Exit" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
