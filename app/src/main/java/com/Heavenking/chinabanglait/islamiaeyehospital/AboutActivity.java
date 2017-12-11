@@ -58,4 +58,10 @@ public class AboutActivity extends AppCompatActivity {
         webView.loadData("<p style=\"text-align: justify\">"+ myData +"</p>", "text/html", "UTF-8");
 
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

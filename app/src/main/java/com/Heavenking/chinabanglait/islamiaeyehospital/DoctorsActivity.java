@@ -247,6 +247,7 @@ public class DoctorsActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         }
     }
 
@@ -283,18 +284,22 @@ public class DoctorsActivity extends AppCompatActivity
             case R.id.nav_home:
                 Intent home= new Intent(DoctorsActivity.this,MainActivity.class);
                 startActivity(home);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_service:
                 Intent service= new Intent(DoctorsActivity.this,SettingActivity.class);
                 startActivity(service);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_doctors:
                 Intent doctors= new Intent(DoctorsActivity.this,DoctorsActivity.class);
                 startActivity(doctors);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_location:
                 Intent location= new Intent(DoctorsActivity.this,locationActivity.class);
                 startActivity(location);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_about:
                 Intent about= new Intent(DoctorsActivity.this,AboutActivity.class);

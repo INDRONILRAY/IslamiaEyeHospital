@@ -57,4 +57,10 @@ public class CorneaActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.webView5);
         webView.loadData(getString(R.string.cornea), "text/html; charset=utf-8", "utf-8");
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

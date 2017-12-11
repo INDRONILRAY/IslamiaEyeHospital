@@ -11,4 +11,9 @@ public class AppointmentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_appointment);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

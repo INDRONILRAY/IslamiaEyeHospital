@@ -61,4 +61,10 @@ public class AnstesiaActivity extends AppCompatActivity {
         WebView webView3 = (WebView) findViewById(R.id.webView3);
         webView3.loadData(getString(R.string.anastesia2), "text/html; charset=utf-8", "utf-8");
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

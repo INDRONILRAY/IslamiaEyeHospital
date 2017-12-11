@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -24,6 +25,8 @@ import java.util.TimerTask;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     ViewPager viewPager;
+    private static final int TIME_INTERVAL = 2000; // # milliseconds, desired time passed between two back presses.
+    private long mBackPressed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +46,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 finish();
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 System.exit(0);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton imageButton9 = (ImageButton) findViewById(R.id.imageButton9);
@@ -53,6 +56,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 finish();
                 System.exit(0);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton shit = (ImageButton) findViewById(R.id.gallery);
@@ -60,8 +64,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,ImageActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         TextView gallery_text = (TextView) findViewById(R.id.gallery_text);
@@ -85,8 +89,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,SettingActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -103,8 +107,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,EyeTipsActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -114,6 +118,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,DoctorsActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
@@ -121,8 +126,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,DoctorsActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -132,6 +137,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,AppointmentActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton imageButton5 = (ImageButton) findViewById(R.id.imageButton5);
@@ -139,8 +145,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,AppointmentActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         TextView textView6 = (TextView) findViewById(R.id.textView6);
@@ -149,6 +155,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,weblinksActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton imageButton6 = (ImageButton) findViewById(R.id.imageButton6);
@@ -156,8 +163,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,weblinksActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -167,6 +174,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,BranchActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton imageButton8 = (ImageButton) findViewById(R.id.imageButton8);
@@ -174,8 +182,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,BranchActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -192,8 +200,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,AboutActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -203,6 +211,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,faqsActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton xxxx = (ImageButton) findViewById(R.id.faqsimage);
@@ -210,8 +219,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,faqsActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         TextView feedback = (TextView) findViewById(R.id.feedback);
@@ -220,6 +229,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,feedbackActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         ImageButton feedbackimage = (ImageButton) findViewById(R.id.feedbackimage);
@@ -227,8 +237,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,feedbackActivity.class);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         TextView btn3 = (TextView) findViewById(R.id.location);
@@ -238,6 +248,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,locationActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         btn3.setOnClickListener(new View.OnClickListener() {
@@ -245,6 +256,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,locationActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -300,10 +312,14 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
+        } else if (mBackPressed + TIME_INTERVAL > System.currentTimeMillis())
+        {
+                super.onBackPressed();
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         }
-    }
+        else { Toast.makeText(getBaseContext(), "Tap back again to exit", Toast.LENGTH_SHORT).show(); }
+            mBackPressed = System.currentTimeMillis();
+        }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -338,34 +354,42 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_home:
                 Intent home= new Intent(MainActivity.this,MainActivity.class);
                 startActivity(home);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_service:
                 Intent service= new Intent(MainActivity.this,SettingActivity.class);
                 startActivity(service);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_doctors:
                 Intent doctors= new Intent(MainActivity.this,DoctorsActivity.class);
                 startActivity(doctors);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_location:
                 Intent location= new Intent(MainActivity.this,locationActivity.class);
                 startActivity(location);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_about:
                 Intent about= new Intent(MainActivity.this,AboutActivity.class);
                 startActivity(about);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_branch:
                 Intent branch= new Intent(MainActivity.this,BranchActivity.class);
                 startActivity(branch);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_developer:
                 Intent dev= new Intent(MainActivity.this,AboutappActivity.class);
                 startActivity(dev);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_gal:
                 Intent gal= new Intent(MainActivity.this,ImageActivity.class);
                 startActivity(gal);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

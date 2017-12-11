@@ -77,4 +77,10 @@ public class CataActivity extends AppCompatActivity {
         WebView webView5 = (WebView) findViewById(R.id.webView5);
         webView5.loadData(getString(R.string.catera2), "text/html; charset=utf-8", "utf-8");
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

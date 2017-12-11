@@ -42,4 +42,9 @@ public class Doctor_DetailsActivity extends AppCompatActivity {
         
         Toast.makeText(getApplicationContext(),e2,Toast.LENGTH_SHORT).show();
     }
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }

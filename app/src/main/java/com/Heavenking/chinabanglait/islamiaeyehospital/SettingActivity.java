@@ -38,6 +38,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,GeneralPActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         Button pp = (Button) findViewById(R.id.pp);
@@ -46,6 +47,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,PrivatePActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -55,6 +57,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,AnstesiaActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -64,6 +67,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,CataActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -73,6 +77,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,CorneaActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -82,6 +87,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,GlaucomaActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -91,6 +97,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,LowActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -100,6 +107,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,NeuroPActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -109,6 +117,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,MnpActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -118,6 +127,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,OculoActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         Button paedia = (Button) findViewById(R.id.paedia);
@@ -126,6 +136,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,PaediaActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -135,6 +146,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,PmbActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         Button retina = (Button) findViewById(R.id.retina);
@@ -143,6 +155,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,RetinaActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
         Button emergency = (Button) findViewById(R.id.emergency);
@@ -151,6 +164,7 @@ public class SettingActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(SettingActivity.this,EmergencyActivity.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -210,6 +224,7 @@ public class SettingActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         }
     }
 
@@ -246,30 +261,37 @@ public class SettingActivity extends AppCompatActivity
             case R.id.nav_home:
                 Intent home= new Intent(SettingActivity.this,MainActivity.class);
                 startActivity(home);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_service:
                 Intent service= new Intent(SettingActivity.this,SettingActivity.class);
                 startActivity(service);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_doctors:
                 Intent doctors= new Intent(SettingActivity.this,DoctorsActivity.class);
                 startActivity(doctors);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_location:
                 Intent location= new Intent(SettingActivity.this,locationActivity.class);
                 startActivity(location);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_about:
                 Intent about= new Intent(SettingActivity.this,AboutActivity.class);
                 startActivity(about);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.nav_branch:
                 Intent branch= new Intent(SettingActivity.this,BranchActivity.class);
                 startActivity(branch);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
                 case R.id.nav_developer:
                 Intent dev= new Intent(SettingActivity.this,AboutappActivity.class);
                 startActivity(dev);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 

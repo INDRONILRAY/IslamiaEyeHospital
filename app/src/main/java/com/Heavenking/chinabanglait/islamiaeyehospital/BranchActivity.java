@@ -87,6 +87,7 @@ public class BranchActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         }
     }
 
@@ -177,9 +178,10 @@ public class BranchActivity extends AppCompatActivity
             ft.replace(R.id.fragment_place,fragment);
             ft.commit();
         }
+
+
+
     }
-
-
 
 
 

@@ -41,6 +41,7 @@ public class EmergencyActivity extends AppCompatActivity {
                 i.putExtra("e1","file:///android_asset/shafikhan.html");
                 i.putExtra("res",R.drawable.doc2);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -53,6 +54,7 @@ public class EmergencyActivity extends AppCompatActivity {
                 i.putExtra("e1","file:///android_asset/mujtaba.html");
                 i.putExtra("res",R.drawable.do7);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -65,6 +67,7 @@ public class EmergencyActivity extends AppCompatActivity {
                 i.putExtra("e1","file:///android_asset/candona.html");
                 i.putExtra("res",R.drawable.do5);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -72,5 +75,10 @@ public class EmergencyActivity extends AppCompatActivity {
         webView.loadData(getString(R.string.emer), "text/html; charset=utf-8", "utf-8");
         WebView webView7 = (WebView) findViewById(R.id.webView7);
         webView7.loadData(getString(R.string.emer2), "text/html; charset=utf-8", "utf-8");
+    }
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
