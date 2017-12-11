@@ -10,15 +10,20 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_service"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/info"
             android:title="Our Service" />
         <item
             android:id="@+id/nav_doctors"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/doctor"
             android:title="Our Doctors" />
         <item
+            android:id="@+id/nav_gal"
+            android:icon="@drawable/gllery"
+            android:title="Our Gallery" />
+
+        <item
             android:id="@+id/nav_location"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/placeholder"
             android:title="Our Location" />
     </group>
 
@@ -26,15 +31,16 @@
         <menu>
             <item
                 android:id="@+id/nav_about"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/about"
                 android:title="About Us" />
             <item
                 android:id="@+id/nav_branch"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/branch"
                 android:title="Hospital Branch" />
+
             <item
                 android:id="@+id/nav_developer"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/team"
                 android:title="About App Develop" />
         </menu>
     </item>

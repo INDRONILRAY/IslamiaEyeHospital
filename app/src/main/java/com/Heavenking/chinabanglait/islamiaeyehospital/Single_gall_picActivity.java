@@ -1,12 +1,13 @@
 package com.Heavenking.chinabanglait.islamiaeyehospital;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 public class Single_gall_picActivity extends AppCompatActivity {
 
-    ImageView ress;
+    ImageView i1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,11 +15,14 @@ public class Single_gall_picActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        ress = (ImageView) findViewById(R.id.imageView12);
+        i1 = (ImageView)findViewById(R.id.custom);
 
         Bundle bundle = getIntent().getExtras();
+        if (bundle !=null)
+        {
+            int id = bundle.getInt("id");
+            i1.setImageResource(id);
+        }
 
-        int res = bundle.getInt("res");
-        ress.setImageResource(res);
     }
 }

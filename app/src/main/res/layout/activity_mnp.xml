@@ -34,20 +34,11 @@
                 android:textAllCaps="false" />
         </LinearLayout>
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="354dp"
-            android:layout_height="457dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="30"
-            android:paddingTop="6dp"
-            android:text="@string/pmb"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
+        <WebView
+            android:id="@+id/webView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/autofitstyle" />
 
         <LinearLayout
             android:layout_width="match_parent"

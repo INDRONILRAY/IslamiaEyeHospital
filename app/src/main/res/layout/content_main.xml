@@ -3,9 +3,10 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:showIn="@layout/app_bar_main"
         android:background="@color/white"
+        android:layout_marginTop="60dp"
         tools:context="com.Heavenking.chinabanglait.islamiaeyehospital.MainActivity">
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,34 +35,35 @@
 
                 <ImageButton
                     android:id="@+id/imageButton"
-                    android:tooltipText="Service"
-                    app:srcCompat="@drawable/info"
-                    tools:ignore="ContentDescription"
-                    android:layout_height="100dp"
                     android:layout_width="100dp"
-                    android:layout_weight="1"
+                    android:layout_height="100dp"
                     android:layout_margin="10dp"
-                    android:background="#90CAF9"/>
+                    android:layout_weight="1"
+                    android:background="#90CAF9"
+                    android:tooltipText="Service"
+                    app:srcCompat="@drawable/infoo"
+                    tools:ignore="ContentDescription" />
+
                 <ImageButton
                     android:id="@+id/imageButton7"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="About us"
-                    app:srcCompat="@drawable/about"
+                    app:srcCompat="@drawable/aboutttt"
                     tools:ignore="ContentDescription" />
 
                 <ImageButton
                     android:id="@+id/imageButton3"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Eye Tips"
-                    app:srcCompat="@drawable/eye" />
+                    app:srcCompat="@drawable/eeeye" />
             </LinearLayout>
 
             <LinearLayout
@@ -105,32 +107,32 @@
                     android:id="@+id/imageButton4"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Consultants"
-                    app:srcCompat="@drawable/seo"
+                    app:srcCompat="@drawable/doctorss"
                     tools:ignore="ContentDescription" />
 
                 <ImageButton
                     android:id="@+id/imageButton5"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Appointment"
-                    app:srcCompat="@drawable/time" />
+                    app:srcCompat="@drawable/timee" />
 
                 <ImageButton
-                    android:id="@+id/imageButton6"
+                    android:id="@+id/gallery"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="#90CAF9"
-                    android:tooltipText="Web Link"
-                    app:srcCompat="@drawable/weblink" />
+                    app:srcCompat="@drawable/gllery" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -156,12 +158,12 @@
                     android:tooltipText="Appointment" />
 
                 <TextView
+                    android:id="@+id/gallery_text"
                     style="@style/GreenText"
-                    android:id="@+id/textView6"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="Web Links"
-                    android:tooltipText="Web Links" />
+                    android:text="Gallery" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -169,16 +171,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_weight="3">
-
-                <ImageButton
-                    android:id="@+id/gallaryimage"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:background="#90CAF9"
-                    android:tooltipText="Location"
-                    app:srcCompat="@drawable/gallery" />
 
 
                 <ImageButton
@@ -189,7 +181,17 @@
                     android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Branch"
-                    app:srcCompat="@drawable/question" />
+                    app:srcCompat="@drawable/faq" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#90CAF9"
+                    android:tooltipText="Web Link"
+                    app:srcCompat="@drawable/link" />
 
                 <ImageButton
                     android:id="@+id/feedbackimage"
@@ -199,7 +201,7 @@
                     android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Exit"
-                    app:srcCompat="@drawable/feedback" />
+                    app:srcCompat="@drawable/feedbackk" />
             </LinearLayout>
 
             <LinearLayout
@@ -209,20 +211,20 @@
                 android:layout_weight="3">
 
                 <TextView
-                    android:id="@+id/gallary"
-                    style="@style/GreenText"
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:text="Gallary"
-                    android:tooltipText="Service" />
-
-                <TextView
                     android:id="@+id/faqs"
                     style="@style/GreenText"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="FAQ"
-                    android:tooltipText="Branch" />
+                    android:tooltipText="Faq" />
+
+                <TextView
+                    style="@style/GreenText"
+                    android:id="@+id/textView6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Web Links"
+                    android:tooltipText="Web Links" />
 
                 <TextView
                     android:id="@+id/feedback"
@@ -230,7 +232,7 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="Feedback"
-                    android:tooltipText="Exit" />
+                    android:tooltipText="Feedback" />
             </LinearLayout>
 
 
@@ -244,32 +246,32 @@
                     android:id="@+id/imageButton2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Location"
-                    app:srcCompat="@drawable/map" />
+                    app:srcCompat="@drawable/mapp" />
 
 
                 <ImageButton
                     android:id="@+id/imageButton8"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Branch"
-                    app:srcCompat="@drawable/branch" />
+                    app:srcCompat="@drawable/plantt" />
 
                 <ImageButton
                     android:id="@+id/imageButton9"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:background="#90CAF9"
                     android:tooltipText="Exit"
-                    app:srcCompat="@drawable/exit" />
+                    app:srcCompat="@drawable/eexit" />
             </LinearLayout>
 
             <LinearLayout

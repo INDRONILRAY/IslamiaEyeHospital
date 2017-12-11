@@ -19,20 +19,12 @@
             android:scaleType="centerCrop"
             app:srcCompat="@mipmap/ic_nav_background" />
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="10"
-            android:paddingTop="6dp"
-            android:text="@string/settings"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
+        <WebView
+            android:id="@+id/webView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/autofitstyle" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,19 +88,19 @@
             <Button
                 android:id="@+id/anstesia"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-               android:layout_weight="1"
                 android:layout_marginRight="5dp"
+                android:layout_weight="1"
                 android:text="Anaesthesia" />
 
             <Button
                 android:id="@+id/cata"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="5dp"
+                android:layout_weight="1"
                 android:text="Cataract" />
         </LinearLayout>
 
@@ -121,7 +113,7 @@
             <Button
                 android:id="@+id/cornea"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
@@ -130,7 +122,7 @@
             <Button
                 android:id="@+id/glaucoma"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
@@ -147,7 +139,7 @@
             <Button
                 android:id="@+id/lowvision"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
@@ -156,7 +148,7 @@
             <Button
                 android:id="@+id/neuro"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
@@ -172,7 +164,7 @@
             <Button
                 android:id="@+id/mnp"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
@@ -181,7 +173,7 @@
             <Button
                 android:id="@+id/oculo"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Oculoplasty" />
@@ -196,7 +188,7 @@
             <Button
                 android:id="@+id/paedia"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
@@ -205,7 +197,7 @@
             <Button
                 android:id="@+id/pmb"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Pathology &amp; Microbiology" />
@@ -220,7 +212,7 @@
             <Button
                 android:id="@+id/retina"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
@@ -229,7 +221,7 @@
             <Button
                 android:id="@+id/emergency"
                 style="@style/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"

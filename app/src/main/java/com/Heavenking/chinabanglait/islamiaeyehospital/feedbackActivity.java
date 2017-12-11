@@ -2,6 +2,7 @@ package com.Heavenking.chinabanglait.islamiaeyehospital;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.webkit.WebView;
 
 public class feedbackActivity extends AppCompatActivity {
 
@@ -10,5 +11,8 @@ public class feedbackActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        WebView webView = (WebView) findViewById(R.id.webView9);
+        webView.loadData(getString(R.string.feedback), "text/html; charset=utf-8", "utf-8");
     }
 }

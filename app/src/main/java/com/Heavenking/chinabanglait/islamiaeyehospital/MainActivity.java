@@ -2,6 +2,7 @@ package com.Heavenking.chinabanglait.islamiaeyehospital;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
@@ -14,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Timer;
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 finish();
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 System.exit(0);
             }
         });
@@ -52,7 +55,23 @@ public class MainActivity extends AppCompatActivity
                 System.exit(0);
             }
         });
-
+        ImageButton shit = (ImageButton) findViewById(R.id.gallery);
+        shit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,ImageActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                startActivity(i);
+            }
+        });
+        TextView gallery_text = (TextView) findViewById(R.id.gallery_text);
+        gallery_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,ImageActivity.class);
+                startActivity(i);
+            }
+        });
         TextView service = (TextView) findViewById(R.id.service);
         service.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +85,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,SettingActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -83,6 +103,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,EyeTipsActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -100,6 +121,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,DoctorsActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -117,6 +139,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,AppointmentActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -133,6 +156,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,weblinksActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -150,6 +174,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,BranchActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -167,6 +192,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,AboutActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -184,6 +210,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,faqsActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
@@ -200,27 +227,10 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,feedbackActivity.class);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 startActivity(i);
             }
         });
-
-        TextView gallary = (TextView) findViewById(R.id.gallary);
-        gallary.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,GalleryActivity.class);
-                startActivity(i);
-            }
-        });
-        ImageButton gallaryimage = (ImageButton) findViewById(R.id.gallaryimage);
-        gallaryimage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,GalleryActivity.class);
-                startActivity(i);
-            }
-        });
-
         TextView btn3 = (TextView) findViewById(R.id.location);
         ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
@@ -246,7 +256,43 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ImageView call = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.call);
+        call.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:09610998333"));
+                startActivity(callIntent);
+            }
+        });
+        ImageView email = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.email);
+        email.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent chooser=null;
+                Intent callIntent = new Intent(Intent.ACTION_SEND);
+                callIntent.setData(Uri.parse("mailto:"));
+                String[] to= {"info@islamia.org.bd"};
+                callIntent.putExtra(Intent.EXTRA_EMAIL,to);
+                callIntent.putExtra(Intent.EXTRA_SUBJECT,"Your Subject Here");
+                callIntent.putExtra(Intent.EXTRA_TEXT,"Write Your Message Here");
+                callIntent.setType("message/rfc822");
+                chooser = Intent.createChooser(callIntent,"Send Email");
+                startActivity(chooser);
+            }
+        });
+        ImageView web = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.web);
+        web.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://www.islamia.org.bd/"));
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -317,9 +363,15 @@ public class MainActivity extends AppCompatActivity
                 Intent dev= new Intent(MainActivity.this,AboutappActivity.class);
                 startActivity(dev);
                 break;
+                case R.id.nav_gal:
+                Intent gal= new Intent(MainActivity.this,ImageActivity.class);
+                startActivity(gal);
+                break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+//        drawer.setDrawerShadow(R.drawable.drawer_item_bg,
+//                GravityCompat.START);
         return true;
     }
 

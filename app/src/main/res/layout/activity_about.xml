@@ -14,7 +14,7 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="180dp"
         android:contentDescription="TODO"
         android:scaleType="centerCrop"
         app:srcCompat="@mipmap/ic_nav_background" />
@@ -26,20 +26,10 @@
         android:text="About Us"
         android:textStyle="bold" />
 
-    <me.grantland.widget.AutofitTextView
+    <WebView
+        android:id="@+id/webView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:maxLines="30"
-        android:text="@string/about"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        autofit:minTextSize="14sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="200dp" />
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/button8"

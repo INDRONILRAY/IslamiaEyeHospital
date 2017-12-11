@@ -23,198 +23,231 @@
     <string name="multilines2">paediatric Ophthalmology\nStrabismus</string>
     <string name="title_activity_setting">Islamia Eye Hospital</string>
     <string name="settingdes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
-    <string name="about">The Iconic name Islamia in the eye service field denotes ispahani islamia eye institute and hospital (IIEIH),the largest and speciality eye hospital in Bangladesh which was established in 1960 by M A ispahani,the hreat industrialist and philanthropist of the subspecialist.it is non-profit organization with aprice eangeaffordable for all class of people.The twohundred bedded hospital is reequipped with all modern equipmentand advanced technologies and serves 2000 patients and performsaround 150 surgeries daily.About 100 doctors,xxx optometrists,xxx nurses,xxx technician with total workforce of 1000 staffs are dedicated to the service.The education part of the hospital happens to become the largest Eye Institute,which runs 16 different courses and training programs.Till to date the instituteproduced xx specialists,xx surgeones,xxx residents and xxx person of another category.The Hospital has branches at jamalpur,Barisal and naogaon.A number of Vision centers work in the community level under the branches.</string>
+
     <string name="faq">For Saturday to Wednesday,the hospital working hour is from 8.30am to 7.30pm, however registration counter remains open from 7.30am and closes at 6.30pm</string>
     <string name="faq2">For Thursday Working hour is from 8.30am to 1.30pm</string>
     <string name="faq3">Registration counter from 7.30am to 12.30pm</string>
     <string name="faq4">However Emergency and Inpateints service remains open for 24 hours every day.</string>
-    <string name="faq5">Hospital remains closed on Fridays and any holidays declared by Government.</string>
-    <string name="faq6">Do emergency services remain open on holidays?
-Yes, emergency remains open   for every day of a year.
+    <string name="faq5">
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+               Hospital remains closed on Fridays and any holidays declared by Government.<br/><br/>Do emergency services remain open on holidays?
+                Yes, emergency remains open   for every day of a year.<br/>What are the emergency services?
+                Emergency service is for emergency only Common emergencies are any cut, burn, injury, impaction of foreign body I the eyes or adjoining area.<br/><br/>
+                Sudden fullness with severe pain and redness, sudden onset of pain, \nsudden loss of vision are also emergencies.<br/>
+                Routine check up, follow up, spectacles, chornic disease etc are not emergency.<br/><br/>
 
-What are the emergency services?
-Emergency service is for emergency only
-Common emergencies are any cut, burn, injury, impaction of foreign body I the eyes or adjoining area.
-Sudden fullness with severe pain and redness, sudden onset of pain, sudden loss of vision are also emergencies.
-Routine check up, follow up, spectacles, chornic disease etc are not emergency
-    </string>
-    <string name="faq7">
-How can I make an appointment?
-You can dial at hotline xxxxxxxxxxxxxxxxxx from your mobile app by telephone or from Hospital website
-    You can also come directly to the reception, however getting appointment is subject to slot availability</string>
-    <string name="faq8">
+                <b>How can I make an appointment?</b></br><br/>
 
-How can make appointment for a particular doctor/consultant
-While making an appointment, mention the name of consultant you seek for\n\n
+                You can dial at hotline xxxxxxxxxxxxxxxxxx from your mobile app by telephone or from Hospital website
+                    You can also come directly to the reception, however getting appointment is subject to slot availability.<br/><br/>
 
-I have been referred from to particular department or doctor by a specialist doctor, what should I do
-In the appointment process as above mention the doctor or speciality, then while you are coming to the hospital bring the referral paper and submit them at the counter.
-You will directly taken to the concerned department or doctor without comprehensive check up\n\n
+                <b>How can make appointment for a particular doctor/consultant</b><br/><br/>
+                While making an appointment, mention the name of consultant you seek for
+                I have been referred from to particular department or doctor by a specialist doctor, what should I do<br/><br/>
+                In the appointment process as above mention the doctor or speciality, \nthen while you are coming to the hospital bring the referral paper and submit them at the counter.<br/>
+                You will directly taken to the concerned department or doctor without comprehensive check up<br/><br/>
 
-What is the registration fee?\n\n
-For general OPD it is taka 50 and for Private OPD it is Taka 800\n\n
+                <b>What is the registration fee?</b><br/><br/>
+                For general OPD it is taka 50 and for Private OPD it is Taka 800<br/><br/>
 
-How many days it takes for cataract surgery\n\n
-Maximum two days: the first day is for investigation, if investigations are oaky  thenYou can undergo surgery on the next day and go back to home on the same day\n
+                <b>How many days it takes for cataract surgery</b><br/><br/>
+                Maximum two days: the first day is for investigation, if investigations are oaky  thenYou can undergo surgery on the next day and go back to home on the same day<br/><br/>
 
-What are the services available?\n\n
-Please click the service menu\n
+                <b>What are the services available?</b><br/><br/>
+                Please click the service menu<br/><br/>
 
-Who are the consultants\n\n
-Please click the ‘Our Consultants/Doctors’ Menu
-</string>
+                <b>Who are the consultants</b>
+                Please click the ‘Our Consultants/Doctors’ Menu.<br/>
+             </body>
+            </html>
+            ]]>
+        </string>
     <string name="eyetips">
-        <b>5 Eye Care Tips for Beautiful Eyes</b>\n\n
-Most people don’t think about their eyes unless they’re putting on makeup. But, eyes need just as much care as skin does. These tips will help you to keep your eyes beautiful, healthy and looking sharp. Caring for your eyes like you do your skin and your face will ensure you look and feel your best.\n\n
-1) Cucumber Slices\n
-The go-to eye care treatment has been, and conintues to be, cucumber slices. It’s worked for countless movie characters (including a few Bond girls) and comes pretty much standard at most spas.\n It is one of the oldest and most effective ways of eliminating those dark circles that creep like shadows on our faces. Not only do the cucumbers prevent dark circles but they also hydrate the skin to keep it looking fresh. Cucumbers are also one of the simplest eye care treatments. All you have to do is peel, slice and place fresh cucumbers on your eyes for fifteen to twenty minutes. In less than a half hour you’re looking and feeling ready to take on the day.\n\n
-2) Vitamin A and Vitamin C\n
-Proper nutrition is one of the largest contributors to your overall health. Your body craves certain vitamins to perform at its best and to keep you looking yours. The two types of Vitamins your eyes crave the most are Vitamin A and Vitamin C. \nAdd some carrots or squash to your daily routin to boost your Vitamin A levels and your skin’s natural glow. For an extra dose of Vitamin C, stock up on citrus fruits or bell peppers and watch the look of your eyes improve right before your eyes. The easiest way to keep your eyes looking great is to simply stick to a healthy diet and make sure you’re getting enough of the vitamins your body needs to be at its best.\n\n
-3) Water or Herbal Tea\n
-Hydration is key. Not only does it help your body and skin but it also helps your eyes. You don’t nessecarily have to stick to eight glasses of ice water a day though. You can always work in some herbal tea. \n Teas give you and your skin that extra boost to take care of business and those dark circles. By staying hydrated, your body will stay healthy, your will skin glow, and dark circles will disappear.\n
-\n4) Black/Green Tea Bags\n
-Feeling a little puffy? There’s a suprising, home remedy for that. Like cucumber slices, cold tea bags can do wonders for your eyes.\n Instead of helping with dark circles though, placing cold tea bags on your eyes will elimnate puffiness and let you be your true self in the mirror and all day long.\n
-\n5) Rose Water\n
-The skin around your eyes are just a part of how you keep you looking like you. When your eyes themselves are in need of a little touch up, don’t reach for an over the counter eye drop; restore their natural glow with rose water.\n Rose water has natural properties that can rejuviate your eyes quicker than you can bat an eyelash. One or two drops, at most, can cleanse your eyes and help them sparkle.\n
-    </string>
-    <string name="eyetips1" tools:ignore="StringEscaping">Don't take your eyes for granted. Take these easy steps to keep your peepers healthy.</string>
-    <string name="eyetips2" tools:ignore="StringEscaping">1. Eat Well\n
-Good eye health starts with the food on your plate. Nutrients like omega-3 fatty acids, lutein, zinc, and vitamins C and E might help ward off age-related vision problems like macular degeneration and cataracts. To get them, fill your plate with:\n\n
-•	Green leafy vegetables like spinach, kale, and collards\n
-•	Salmon, tuna, and other oily fish\n
-•	Eggs, nuts, beans, and other nonmeat protein sources\n
-•	Oranges and other citrus fruits or juices\n
-•	Oysters and pork\n
-A well-balanced diet also helps you stay at a healthy weight. That lowers your odds of obesity and related diseases like type 2 diabetes, which is the leading cause of blindness in adults.\n\n
-2. Quit Smoking\n
-It makes you more likely to get cataracts, damage to your optic nerve, and macular degeneration. If you've tried to kick the habit  before only to start again, keep at it. The more times you try to quit, the more likely you are to succeed. Ask your doctor for help.\n
-3. Wear Sunglasses\n\n
-The right pair of shades will help protect your eyes from the sun's ultraviolet (UV) rays. Too much UV exposure boosts your chances of cataracts and macular degeneration.
-Choose a pair that blocks 99% to 100% of UVA and UVB rays. Wraparound lenses help protect your eyes from the side. Polarized lenses reduce glare while you drive.
-CONTINUE READING BELOW\n
-YOU MIGHT LIKE
-WEBMD\n\n
-Connect With WebMD on Facebook
-See the latest health trends, real-time video with our experts, and more.\n\n
+            <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+              <b>5 Eye Care Tips for Beautiful Eyes</b><br/><br/>
+                Most people don’t think about their eyes unless they’re putting on makeup. But, eyes need just as much care as skin does. These tips will help you to keep your eyes beautiful, healthy and looking sharp. Caring for your eyes like you do your skin and your face will ensure you look and feel your best.<br/><br/>
+                <b>1) Cucumber Slices</b><br/><br/>
+                The go-to eye care treatment has been, and conintues to be, cucumber slices. It’s worked for countless movie characters (including a few Bond girls) and comes pretty much standard at most spas.\n\n It is one of the oldest and most effective ways of eliminating those dark circles that creep like shadows on our faces. \n\n Not only do the cucumbers prevent dark circles but they also hydrate the skin to keep it looking fresh.\n\n Cucumbers are also one of the simplest eye care treatments.\n All you have to do is peel, \n slice and place fresh cucumbers on your eyes for fifteen to twenty minutes. In less than a half hour you’re looking and feeling ready to take on the day.<br/><br/>
+                <b>2) Vitamin A and Vitamin C</b><br/><br/>
+                Proper nutrition is one of the largest contributors to your overall health.\n Your body craves certain vitamins to perform at its best and to keep you looking yours.\n\nThe two types of Vitamins your eyes crave the most are Vitamin A and Vitamin C.\n\nAdd some carrots or squash to your daily routin to boost your Vitamin A levels and your skin’s natural glow. \n\nFor an extra dose of Vitamin C, stock up on citrus fruits or bell peppers and watch the look of your eyes improve right before your eyes. \n\nThe easiest way to keep your eyes looking great is to simply stick to a healthy diet and make sure you’re getting enough of the vitamins your body needs to be at its best.<br/><br/>
+                <b>3) Water or Herbal Tea</b><br/><br/>
+                Hydration is key. Not only does it help your body and skin but it also helps your eyes. \nYou don’t nessecarily have to stick to eight glasses of ice water a day though. You can always work in some herbal tea. \n\n Teas give you and your skin that extra boost to take care of business and those dark circles. By staying hydrated, your body will stay healthy, your will skin glow, and dark circles will disappear.<br/><br/>
+                <b>4) Black/Green Tea Bags</b><br/><br/>
+                Feeling a little puffy? There’s a suprising, home remedy for that. Like cucumber slices, cold tea bags can do wonders for your eyes.\n\n Instead of helping with dark circles though, placing cold tea bags on your eyes will elimnate puffiness and let you be your true self in the mirror and all day long.<br/><br/>
+                <b>5) Rose Water</b><br/><br/>
+                The skin around your eyes are just a part of how you keep you looking like you. When your eyes themselves are in need of a little touch up,\n don’t reach for an over the counter eye drop; restore their natural glow with rose water.\n Rose water has natural properties that can rejuviate your eyes quicker than you can bat an eyelash. One or two drops, at most, can cleanse your eyes and help them sparkle.<br/>
 
-WEBMD\n
-Assess Your Symptoms\n
-Find out what they might mean with WebMD’s Symptom Checker.\n
-If you wear contact lenses, some offer UV protection. It's still a good idea to wear sunglasses for an extra layer.\n\n
-4. Use Safety Eyewear\n
-If you use hazardous or airborne materials on the job or at home, wear safety glasses or protective goggles.
-Sports like ice hockey, racquetball, and lacrosse can also lead to eye injury. Wear eye protection. Helmets with protective face masks or sports goggles with polycarbonate lenses will shield your eyes.
-5. Look Away From the Computer Screen\n
-Staring at a computer or phone screen for too long can cause:\n
-•	Eyestrain\n
-•	Blurry vision\n
-•	Trouble focusing at a distance\n
-•	Dry eyes\n
-•	Headaches\n
-•	Neck, back, and shoulder pain\n\n
-To protect your eyes:\n\
-•	Make sure your glasses or contacts prescription is up to date and good for looking at a computer screen.\n
-•	If your eye strain won’t go away, talk to your doctor about computer glasses.\n
-•	Move the screen so your eyes are level with the top of the monitor. That lets you look slightly down at the screen.\n
-•	Try to avoid glare from windows and lights. Use an anti-glare screen if needed.\n
-•	Choose a comfortable, supportive chair. Position it so that your feet are flat on the floor.\n
-•	If your eyes are dry, blink more.\n
-•	Rest your eyes every 20 minutes. Look 20 feet away for 20 seconds. Get up at least every 2 hours and take a 15-minute break.\n
-Watching porno has been proved to have bad effect on eyes
+                <b>Don't take your eyes for granted. Take these easy steps to keep your peepers healthy.</b><br/><br/>
+
+                <b>1. Eat Well</b><br/><br/>
+Good eye health starts with the food on your plate. Nutrients like omega-3 fatty acids, lutein, zinc, and vitamins C and E might help ward off age-related vision problems like macular degeneration and cataracts. To get them, fill your plate with:<br/><br/>
+•	Green leafy vegetables like spinach, kale, and collards<br/>
+•	Salmon, tuna, and other oily fish<br/>
+•	Eggs, nuts, beans, and other nonmeat protein sources<br/>
+•	Oranges and other citrus fruits or juices<br/>
+•	Oysters and pork<br/>
+A well-balanced diet also helps you stay at a healthy weight. That lowers your odds of obesity and related diseases like type 2 diabetes, which is the leading cause of blindness in adults.<br/><br/>
+                <b>2. Quit Smoking</b><br/><br/>
+                It makes you more likely to get cataracts, damage to your optic nerve, and macular degeneration. If you've tried to kick the habit  before only to start again, keep at it. The more times you try to quit, the more likely you are to succeed. Ask your doctor for help.<br/><br/>
+                <b>3. Wear Sunglasses</b><br/><br/>
+                The right pair of shades will help protect your eyes from the sun's ultraviolet (UV) rays. Too much UV exposure boosts your chances of cataracts and macular degeneration.
+                Choose a pair that blocks 99% to 100% of UVA and UVB rays. Wraparound lenses help protect your eyes from the side. Polarized lenses reduce glare while you drive.<br/>
+             </body>
+            </html>
+            ]]>
 </string>
-    <string name="eyetips3" tools:ignore="StringEscaping">Have regular physical exams to check for diabetes and high blood pressure.\n If left untreated, these diseases can cause eye problems. In particular, diabetes and high blood pressure can lead to vision loss from diabetic retinopathy, macular degeneration and eye strokes.\n
-3. Look for warning signs of changes in your vision. If you start noticing changes in your vision, see your eye doctor immediately.\n Some trouble signs to look for are double vision, hazy vision and difficulty seeing in low light conditions. Other signs and symptoms of potentially serious eye problems that warrant immediate attention include red eyes, frequent flashes of light, floaters, and eye pain and swelling.\n
-4. Exercise more frequently. According to the AAO, some studies suggest that regular exercise — such as walking — can reduce the risk of age-related macular degeneration by up to 70 percent.\n
-5. Protect your eyes from harmful UV light. When outdoors during daytime, always wear sunglassesthat shield your eyes from 100 percent of the sun's harmful ultraviolet rays. This may help reduce your risk of cataracts, pinguecula and other eye problems.\n
-6. Eat a healthy and balanced diet. Numerous studies have shown that antioxidants can possibly reduce the risk of cataracts. These antioxidants are obtained from eating a diet containing plentiful amounts of fruits and colorful or dark green vegetables.
+    <string name="eyetips3">
+            <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+              Have regular physical exams to check for diabetes and high blood pressure.<br/> If left untreated, these diseases can cause eye problems. In particular, diabetes and high blood pressure can lead to vision loss from diabetic \nretinopathy, macular degeneration and eye strokes.<br/><br/>
+#. Look for warning signs of changes in your vision. If you start noticing changes in your vision, see your eye doctor immediately.<br/> Some trouble signs to look for are double vision, hazy vision and difficulty seeing in low light conditions. <br/>Other signs and symptoms of potentially serious eye problems that warrant immediate attention include red eyes, \nfrequent flashes of light, floaters, and eye pain and swelling.<br/><br/>
+#. Exercise more frequently. According to the AAO, some studies suggest that regular exercise — such as walking — can reduce the risk of \nage-related macular degeneration by up to 70 percent.<br/><br/>
+#. Protect your eyes from harmful UV light. When outdoors during daytime, always wear sunglassesthat shield your eyes from \n100 percent of the sun's harmful ultraviolet rays. This may help reduce your risk of cataracts, pinguecula and other eye problems.<br/><br/>
+#. Eat a healthy and balanced diet. Numerous studies have shown that antioxidants can possibly reduce the risk of cataracts. \n\nThese antioxidants are obtained from eating a diet containing plentiful amounts of fruits and colorful or dark green vegetables.<br/>
+             </body>
+            </html>
+            ]]>
 </string>
-    <string name="cornea" tools:ignore="StringEscaping">The cornea is the clear, dome-shaped covering in front of the iris and pupil. The cornea subspeciality deals with diseases of cornea. It includes treatment of \n
-•	corneal ulcer,\n
-•	corneal injury,\n
-•	corneal scar,\n
-•	foreign body impaction, \n
-•	dystrophy,\n
-•	keratoconus etc. \n
-The cornea subspeciality also offers refractive surgery like LASIK, cornea transplant surgeries, contact lens fitting etc.
+    <string name="cornea" tools:ignore="StringEscaping">
+         <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The cornea is the clear, dome-shaped covering in front of the iris and pupil. The cornea subspeciality deals with diseases of cornea. It includes treatment of <br/><br/>
+                <b>•	corneal ulcer,</b><br/><br/>
+                <b>•	corneal injury,</b><br/><br/>
+                <b>•	corneal scar,</b><br/><br/>
+                <b>•	foreign body impaction,</b><br/><br/>
+                <b>•	dystrophy,</b><br/><br/>
+                <b>•	keratoconus etc.</b><br/><br/>
+                The cornea subspeciality also offers refractive surgery like LASIK, cornea transplant surgeries, contact lens fitting etc.<br/><br/>
+             </body>
+            </html>
+            ]]>
 </string>
 
-    <string name="retina" tools:ignore="StringEscaping">The Retina is the light-sensitive tissue lining the back of the eye. The macula is a small area of the retina responsible for your central, detail vision. \n\n
+    <string name="retina" tools:ignore="StringEscaping">
+         <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The Retina is the light-sensitive tissue lining the back of the eye. The macula is a small area of the retina responsible for your central, detail vision.</br></br>
 
-The retina speciality diagnoses and manages retinal diseases, including macular degeneration and diabetic eye disease. \n They surgically repair torn and detached retinas and treat problems with the vitreous, the gel-like substance in the middle of the eyeball.\n\n
+                The retina speciality diagnoses and manages retinal diseases, including macular degeneration and diabetic eye disease. \n They surgically repair torn and detached retinas and treat problems with the vitreous, the gel-like substance in the middle of the eyeball.</br></br>
 
-Common retina services provided are \n\n
-•	Retina check up, \n
-•	Laser and injection treatment for retinopathies specially due to diabetic retinopathy,\n
-•	RD surgeries, \n
-•	macular hole surgeries etc.\n
-•	CSCR \n
+                Common retina services provided are </br></br>
+                •	Retina check up, </br></br>
+                •	Laser and injection treatment for retinopathies specially due to diabetic retinopathy,</br></br>
+                •	RD surgeries, </br></br>
+                •	macular hole surgeries etc.</br></br>
+                •	CSCR </br></br>
 
-The retina department also deals with \n\n
-•	Degenerative retinal diseases\n
-•	ROP which frequently occurs with new born pre term babies.\n
-•	Vitrectomies where indicated
+                The retina department also deals with </br></br>
+                •	Degenerative retinal diseases</br></br>
+                •	ROP which frequently occurs with new born pre term babies.</br></br>
+                •	Vitrectomies where indicated .</br>
+               </body>
+            </html>
+            ]]>
 </string>
 
-    <string name="glaucoma" tools:ignore="StringEscaping">Glaucoma is a disease that affects the optic nerve, which connects the eye to the brain. If your eye does not circulate fluid inside the eye properly, pressure builds inside the eye and damages the optic nerve. \n\n
-Glaucoma subspecialityoffers a range of services like\n
-•	Check up\n
-•	Medical treatment\n
-•	Surgical treatment\n
-•	Laser treatment medicine, laser and surgery to manage eye pressure.\n
-•	Catarcts Associated with glaucoma\n\n
-Besides glaucoma department also manages \n\n
-•	childhood glaucoma\n
-•	secondary glaucoma due to various ocular diseases\n
-•	Valve implants as a modern aternatives to traditional surgeries.
+    <string name="glaucoma" tools:ignore="StringEscaping">
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Glaucoma is a disease that affects the optic nerve, which connects the eye to the brain. If your eye does not circulate fluid inside the eye properly, pressure builds inside the eye and damages the optic nerve. <br/><br/>
+                Glaucoma subspecialityoffers a range of services like<br/>
+                <b>•	Check up</b><br/><br/>
+                <b>•	Medical treatment</b><br/><br/>
+                <b>•	Check up</b><br/><br/>
+                <b>•	Surgical treatment</b><br/><br/>
+                <b>•	Laser treatment medicine, laser and surgery to manage eye pressure.</b><br/><br/>
+                <b>•	Catarcts Associated with glaucoma</b><br/><br/>
+                Besides glaucoma department also manages <br/><br/>
+                <b>•	childhood glaucoma</b><br/><br/>
+                <b>•	secondary glaucoma due to various ocular diseases</b><br/><br/>
+                <b>•	Valve implants as a modern aternatives to traditional surgeries.</b><br/>
+             </body>
+            </html>
+            ]]>
 </string>
 
     <string name="paedia" tools:ignore="StringEscaping">
-Pediatric ophthalmologists treat eye conditions in infants and children.\n They diagnose and treat misalignment of the eyes, uncorrected refractive errors and vision differences between the two eyes, as well as childhood eye diseases and other conditions. \n
-Besides the pediatric departmnent also offers two important services:\n
-Strabismus or squinting eyes (which also includes adult)\n
-Low Vision aid services : this are special devices for them who see poor despite best spectacle correction.
+           <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Pediatric ophthalmologists treat eye conditions in infants and children. They diagnose and treat misalignment of the eyes, uncorrected refractive errors and vision differences between the two eyes, as well as childhood eye diseases and other conditions. </br></br>
+                Besides the pediatric departmnent also offers two important services:</br></br>
+                Strabismus or squinting eyes (which also includes adult)</br>
+                Low Vision aid services : this are special devices for them who see poor despite best spectacle correction.</br>
+             </body>
+            </html>
+            ]]>
 </string>
 
     <string name="oculo" tools:ignore="StringEscaping">
-The cover the disease or abnormalities around eyeball which also includes the eyelids, adjoining faces, orbits. bones and other structures around the eyeball conjunctival surface, and tear drainage system. \n\n Oculoplastic surgeons do the reconstructive or plastic surgeries to restore structure and function of structures to normalcy.\n
-Some of common surgeries are:
-•	Exteranl DCRs\n
-•	Endonasal DCRs\n
-•	Pediatric(Children) DCR\n
-•	Ptosis surgeries (all varieties)\n
-•	Entropion, ectropion, trichiasis surgeries\n
-•	Lid and conjunctival injuries\n
-•	Surgeries for facial dystonia\n
-•	Orbital diseases\n
-•	Thyroid Eye diseases\n
-•	Socket reconstructions\n\n
+                <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The cover the disease or abnormalities around eyeball which also includes the eyelids, adjoining faces, orbits. bones and other structures around the eyeball conjunctival surface, and tear drainage system. \n\n Oculoplastic surgeons do the reconstructive or plastic surgeries to restore structure and function of structures to normalcy.</br></br>
+                Some of common surgeries are:</br></br>
+                •	Exteranl DCRs</br></br>
+                •	Endonasal DCRs</br></br>
+                •	Pediatric(Children) DCR</br></br>
+                •	Ptosis surgeries (all varieties)</br></br>
+                •	Entropion, ectropion, trichiasis surgeries</br></br>
+                •	Lid and conjunctival injuries</br></br>
+                •	Surgeries for facial dystonia</br></br>
+                •	Orbital diseases</br></br>
+                •	Thyroid Eye diseases</br></br>
+                •	Socket reconstructions</br></br>
 
-An important function of Oculoplasty is ocular Oncology that deals with of tumor eye and adjoining area. Some of the are:\n
-•	Retinoblastoma and choroidal melanoma\n
-•	Orbital tumors\n
-•	Lid tumors\n
-•	Surface tumors especially OSSN\n
+                An important function of Oculoplasty is ocular Oncology that deals with of tumor eye and adjoining area. Some of the are:</br></br>
+                •	Retinoblastoma and choroidal melanoma</br></br>
+                •	Orbital tumors</br></br>
+                •	Lid tumors</br></br>
+                •	Surface tumors especially OSSN</br></br>
 
-The center is specially renowned for orbital surgeries\n\n
+                The center is specially renowned for orbital surgeries</br></br>
 
-Another mention-worthy service is aesthetics which isaimed to improve the look and function of facial structures,namely\n
-•	Botox injection\n
-•	Dermal fillers\n
-•	Blepharoplasty\n
-•	Forehead tightening, \n
-•	brow pexyetc.
+                Another mention-worthy service is aesthetics which isaimed to improve the look and function of facial structures,namely</br></br>
+                •	Botox injectio</br></br>
+                •	Dermal fillers</br></br>
+                •	Blepharoplasty</br></br>
+                •	Forehead tightening,</br></br>
+                •	brow pexyetc.</br>
+             </body>
+            </html>
+            ]]>
 </string>
     <string name="neuro_p" tools:ignore="DuplicateDefinition">
-Neuro-ophthalmologists take care of vision problems related to how the eyes interact with the brain, nerves and muscles.\n\n
-
-Among other conditions, they diagnose and treat\n\n
-•	Optic nerve problems,\n
-•	various types of vision loss,\n
-•	double vision,\n
-•	abnormal eye movements,\n
-•	paralysis of muscles that rotates the eye\n
-•	unequal pupil size,\n
-•	loss or gross deterioration of vision following alcohol consumption
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Neuro-ophthalmologists take care of vision problems related to how the eyes interact with the brain, nerves and muscles.</br>
+                Among other conditions, they diagnose and treat </br></br>
+                •	Optic nerve problems,</br></br>
+                •	various types of vision loss,</br></br>
+                •	double vision,</br></br>
+                •	abnormal eye movements,</br></br>
+                •	paralysis of muscles that rotates the eye</br></br>
+                •	unequal pupil size,</br></br>
+                •	loss or gross deterioration of vision following alcohol consumption</br>
+             </body>
+            </html>
+            ]]>
 </string>
     <string name="appoint" tools:ignore="DuplicateDefinition">
 Sher e Bangla Nagar, Farmgate\n
@@ -245,58 +278,103 @@ Feedback on our services : feedback@islamia.org.bd\n
 </string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="catera">Cataract is a common eye condition, in which the lens becomes progressively opaque, resulting in blurred vision. This department diagnose cataract after proper clinical examination and investigations. \n Then advise the patients for surgery. All types of cataract surgeries, including Phacoemulsification, SICS, SFL, complicated cataract surgery with iris hook or CTR, are performed in our institute by the following surgeons</string>
+    <string name="catera">
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+              Cataract is a common eye condition, in which the lens becomes progressively opaque, resulting in blurred vision. This department diagnose cataract after proper clinical examination and investigations. <br/><br/> Then advise the patients for surgery. All types of cataract surgeries, including Phacoemulsification, SICS, SFL, complicated cataract surgery with iris hook or CTR, are performed in our institute by the following surgeons.
+             </body>
+            </html>
+            ]]>
+    </string>
     <string name="catera1">
-        The team in this service diagnose and treats cataract.\n
-        Cataract surgery is generally recommended when your cataract has progressed to the point that it is interfering with your daily activities and lifestyle.\n\n
-        Modern cataract surgery is usually quick and can be performed using a local anaesthetic only. Most people are able to return to work the day after their operation. During surgery, your lens is usually replaced with a clear artificial lens, called an intraocular lens (IOL). \n\n For most patients, the new lens is chosen to aim for focused distant vision after the operation. Many people still require glasses for fine focusing in the distance and it is usual for you to need reading glasses after  your operation.\n\n
-		Now a days we are using multifocal IOLs for focussing both distance and near and toric IOLs for  correcting astigmatism.
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The team in this service diagnose and treats cataract.<br/><br/>
+                Cataract surgery is generally recommended when your cataract has progressed to the point that it is interfering with your daily activities and lifestyle.<br/><br/>
+                Modern cataract surgery is usually quick and can be performed using a local anaesthetic only. Most people are able to return to work the day after their operation. <br/><br/>During surgery, your lens is usually replaced with a clear artificial lens, called an intraocular lens (IOL). \n\n For most patients, the new lens is chosen to aim for focused distant vision after the operation.<br/> Many people still require glasses for fine focusing in the distance and it is usual for you to need reading glasses after  your operation.<br/><br/>
+                Now a days we are using multifocal IOLs for focussing both distance and near and toric IOLs for  correcting astigmatism.<br/>
+                </body>
+            </html>
+            ]]>
     </string>
     <string name="catera2">
-        Clinical examinations by  ophthalmologist\n
-        Biometry\n
-        GAT\n
-        Sac patency test\n
-
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                 Biometry<br/><br/>
+                 GAT<br/><br/>
+                 Sac patency test<br/>
+              </body>
+            </html>
+            ]]>
     </string>
     <string name="anastesia">
-        Though most cataract surgeries can be performed under local or topical anaesthesia,most of the retina, oculoplasty, and paediatric ophthalmology surgeries require a general anaesthetic. Because of this need, many general anaesthetics are given each day.\nThe Anaesthesia Department has four consultants, and oversees the pre-operative evaluation of general anaesthesia cases, as well as educates the staff about the up-to-date ways of treating patients with cardiac arrest
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Though most cataract surgeries can be performed under local or topical anaesthesia,most of the retina, oculoplasty, and paediatric ophthalmology surgeries require a general anaesthetic. Because of this need, many general anaesthetics are given each day.<br/><br/>The Anaesthesia Department has four consultants, and oversees the pre-operative evaluation of general anaesthesia cases, as well as educates the staff about the up-to-date ways of treating patients with cardiac arrest
+             </body>
+             </html>
+         ]]>
     </string>
     <string name="anastesia2">
-        1. Clinical Anaesthesia\n\n
-        2. Intensive Care Medicine\n
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                 <b>1. Clinical Anaesthesia</b><br/><br/>
+                 <b>2. Intensive Care Medicine</b>
+              </body>
+             </html>
+         ]]>
     </string>
 
     <string name="general1">
-        Today  in Bangladesh, with the changing conditions and expectations of economic groups \n
-IIEI &amp;H serves three economic groups of patients\n\n
-			    1]  Those that were at or below the poverty line [In line with the mission of the  Hospital]\n
-			    2]  General patients (mid level income group)\n
-			    3]  Private patients [Those able to pay a full fee] \n
-			  \n
-			    A  fund was established so that 30% of patients i.e.:– those below the poverty  line – would be treated free of cost in line with the mission of the Founder of  the Hospital\n
-    \n
-			    Ispahani  Islamia Eye Institute and Hospital has well experienced Consultants, Surgeons  and Doctors who are well known in the field of Ophthalmology in the Country. \n
-    \n
-			    The  hospital is equipped with modern equipment and operating facilities. \n
-			    Patients  at OPD are examined and treatments are given with utmost care and attention. \n
-			    Averages  of 1000 outpatients visit each day. \n
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Today  in Bangladesh, with the changing conditions and expectations of economic groups
+                IIEI &amp;H serves three economic groups of patients </br></br>
+                <b>1.  Those that were at or below the poverty line [In line with the mission of the  Hospital.</b></br></br>
+                <b>2.  General patients (mid level income group.</b></br></br>
+                <b>3.  Private patients [Those able to pay a full fee.</b></br></br>
+                A  fund was established so that 30% of patients i.e. :– those below the poverty  line – would be treated free of cost in line with the mission of the Founder of  the Hospital</br></br>
+                Ispahani  Islamia Eye Institute and Hospital has well experienced Consultants, Surgeons  and Doctors who are well known in the field of Ophthalmology in the Country.</br></br>
+                The  hospital is equipped with modern equipment and operating facilities. </br>
+                Patients  at OPD are examined and treatments are given with utmost care and attention. </br></br>
+                Averages  of 1000 outpatients visit each day.
+             </body>
+            </html>
+            ]]>
     </string>
 
-    <string name="general12">
+    <string name="gener">
         From  15th April 2015 \n
-    New  Fees have been established\n
-    \nRegistration  Fee Taka <strong>50/-</strong> only for all General Outpatient visits\n
+        New  Fees have been established
+    </string>
+    <string name="generw">
+        Registration  Fee Taka <strong>50/-</strong> only for all General Outpatient visits
+    </string>
 
-</string>
-
-    <string name="private1">
-        The goal of IIEI&amp;H to be a  Centre of Excellence in Ophthalmology has led to extensive renovation and  expansion of the facilities and services provided at the hospital and  institute.\n\n
-        With this in mind the hospital has  seen extensive renovation which includes a private outpatient service, turning  this into improved and convenient waiting and examination areas.\n
-    \n
-        An online appointment system has  also been inaugurated, and has proved extremely popular for private patients.
-    \n\n
-    In addition, a new inpatient private patient  wing was created, providing modern and comfortable accommodation, complete with  environmental enhancements such as cable TV, internet and choice menu  availabilities.
+    <string name="pp">
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The goal of IIEI&amp;H to be a  Centre of Excellence in Ophthalmology has led to extensive renovation and  expansion of the facilities and services provided at the hospital and  institute.</br></br>
+                With this in mind the hospital has  seen extensive renovation which includes a private outpatient service, turning  this into improved and convenient waiting and examination areas.
+                An online appointment system has  also been inaugurated, and has proved extremely popular for private patients.</br></br>
+                In addition, a new inpatient private patient  wing was created, providing modern and comfortable accommodation, complete with  environmental enhancements such as cable TV, internet and choice menu  availabilities.
+             </body>
+            </html>
+            ]]>
 </string>
 
     <string name="private2">
@@ -305,52 +383,91 @@ IIEI &amp;H serves three economic groups of patients\n\n
         Registration Fee Taka <strong>600/- </strong>only for  all Private Outpatient visits \n
 </string>
     <string name="low">
-       When medical science is not able to do more for the patient, the Low Vision Clinic fills that vital need of allowing this person with severe visual impaired to know how to continue to function.\n It is both one of the most demanding areas of eye care, and at the same time, one of the most fulfilling.
+         <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+               When medical science is not able to do more for the patient, the Low Vision Clinic fills that vital need of allowing this person with severe visual impaired to know how to continue to function.</br></br> It is both one of the most demanding areas of eye care, and at the same time, one of the most fulfilling.
+             </body>
+            </html>
+            ]]>
     </string>
 
     <string name="low1">
-More than 2,000 patients have been seen in the Low Vision Clinic each year over each of the last three years.\n These patients may have visual impairment from many different conditions – injuries, tumors, macular degeneration, \ndiabetes and other conditions, and present with difficulty reading small print in spite of regular glasses; difficulty performing daily activities due to their visual impairment, and a desire to live a more normal life. Their ages range from childhood to the elderly.\n\n
+          <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                More than 2,000 patients have been seen in the Low Vision Clinic each year over each of the last three years.</br> These patients may have visual impairment from many different conditions – injuries, tumors, macular degeneration, \ndiabetes and other conditions, and present with difficulty reading small print in spite of regular glasses; difficulty performing daily activities due to their visual impairment, and a desire to live a more normal life. Their ages range from childhood to the elderly.</br></br>
 
-	The Low Vision Clinic sees patients who are referred by the departments within the hospital as well as from outside practitioners, \nand provides the following services:
+	            The Low Vision Clinic sees patients who are referred by the departments within the hospital as well as from outside practitioners,and provides the following services:</br></br>
 
-			 Evaluating the degree of visual impairment and prescribing suitable low-vision aids and devices,\n and training in the use of these devices
-			Teaching the skills associated with the ability to be able to live independently\n
-			 Counselling on how best to adapt to visual impairment\n
+			 Evaluating the degree of visual impairment and prescribing suitable low-vision aids and devices,\n and training in the use of these devices </br>Teaching the skills associated with the ability to be able to live independently\n
+			 Counselling on how best to adapt to visual impairment
+			  </body>
+            </html>
+            ]]>
     </string>
-    <string name="pmb">
-        In-house training for nurses and ward assistants in ophthalmic and general nursing began in 2003, and has continued, so that now staff nurses, nursing assistants, assistant nurses, patient care attendants, andcounsellors are being trained in the hospital. \n\n
-   A course to help the nursing staff learn about international practices was held during 2012. This course was set up by the A.K. Khan Healthcare Foundation in association with the Institute for Nursing Healthcare Leadership, the representative of “The Consortium of Harvard Affiliated Hospital Nursing Services” from Boston, USA. \n\nThis programme is designed to bridge the difference between standards of nursing practices in the South Asia region and the Western countries, especially the USA. Twenty-eight nurses were enrolled in this rigorous programme.\n\n
-At the end of the course the nurses took an examination. The top three nurses were\n
-    1. Sr. Susmita Mistry\n
-   2. Sr. Noorjahan Islam\n
-    3. Sr. Scholastica Gomes\n
-    Over the last few years, 29 students and 57 Staff Nurses from government and private hospitals were trained at Ispahani Islamia Eye Institute and Hospital in ophthalmic ward nursing, operation theatre management, sterility techniques, and OPD management.
-    </string>
-    <string name="pmb1">
-More than 2,000 patients have been seen in the Low Vision Clinic each year over each of the last three years.\n These patients may have visual impairment from many different conditions – injuries, tumors, macular degeneration, \ndiabetes and other conditions, and present with difficulty reading small print in spite of regular glasses; difficulty performing daily activities due to their visual impairment, and a desire to live a more normal life. Their ages range from childhood to the elderly.\n\n
-
-	The Low Vision Clinic sees patients who are referred by the departments within the hospital as well as from outside practitioners, \nand provides the following services:
-
-			 Evaluating the degree of visual impairment and prescribing suitable low-vision aids and devices,\n and training in the use of these devices
-			Teaching the skills associated with the ability to be able to live independently\n
-			 Counselling on how best to adapt to visual impairment\n
+    <string name="fuck">
+         <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+             In-house training for nurses and ward assistants in ophthalmic and general nursing began in 2003, and has continued, so that now staff nurses, nursing assistants, assistant nurses, patient care attendants, andcounsellors are being trained in the hospital.</br></br>
+               A course to help the nursing staff learn about international practices was held during 2012. This course was set up by the A.K. Khan Healthcare Foundation in association with the Institute for Nursing Healthcare Leadership, the representative of “The Consortium of Harvard Affiliated Hospital Nursing Services” from Boston, USA. </br></br> This programme is designed to bridge the difference between standards of nursing practices in the South Asia region and the Western countries, especially the USA. Twenty-eight nurses were enrolled in this rigorous programme.</br></br>
+            At the end of the course the nurses took an examination. The top three nurses were</br></br>
+                <b>1. Sr. Susmita Mistry</b></br></br>
+                <b>2. Sr. Noorjahan Islam</b></br></br>
+                <b>3. Sr. Scholastica Gomes</b></br></br>
+                Over the last few years, 29 students and 57 Staff Nurses from government and private hospitals were trained at Ispahani Islamia Eye Institute and Hospital in ophthalmic ward nursing, operation theatre management, sterility techniques, and OPD management.
+			  </body>
+            </html>
+            ]]>
     </string>
     <string name="patho">
-     The Pathology and Microbiology Department is well equipped to do a full range of pre-operative biochemical and haematological investigations, as well as culture and sensitivity tests for bacterial and fungal infections.
-
+         <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                The Pathology and Microbiology Department is well equipped to do a full range of pre-operative biochemical and haematological investigations, as well as culture and sensitivity tests for bacterial and fungal infections.
+             </body>
+            </html>
+            ]]>
     </string>
     <string name="emer">
-        This department has two wings, emergency room and trauma unit. Emergency room is open for 24/7 \n walk in service for urgent, sight threatening problems and emergency eye treatment. No appointment is necessary.\n Trauma unit deals all types of trauma, open or closed globe injuries. One consultant examine the patient whenever he/she reaches to the department and give proper management immediately. Surgery is performed as and when necessary.\n
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+              This department has two wings, emergency room and trauma unit. Emergency room is open for 24/7 <br/><br/> walk in service for urgent, sight threatening problems and emergency eye treatment. No appointment is necessary.<br/><br/> Trauma unit deals all types of trauma, open or closed globe injuries. One consultant examine the patient whenever he/she reaches to the department and give proper management immediately.<br/><br/> Surgery is performed as and when necessary.<br/>
+             </body>
+            </html>
+            ]]>
     </string>
     <string name="emer2">
-Our trauma and emergency team offers emergency treatment for urgent, sight-threatening problems and for issues that cannot wait for a routine appointment. \n
-         On arrival, you will be assessed by a doctor in emergency room who will determine how serious your condition is and prioritise you for treatment accordingly.  \n Sometimes, we’ll be able to treat your condition straight away, but sometimes we might decide to refer you to one of our more specialist services for further tests and treatments.  \n
-       In case of trauma (open or closed globe injury), patients are referred to the trauma unit where they are assessed by consultants and treated accordingly.
-		Please note that we are not a general emergency and can only help with eye conditions
-    </string>
-    <string name="settings">
-Islamia, as it has been known for over 50 years, is the largest multispecialty eye hospital in Bangladesh.\n The emphasis is on quality eye care for all socio-economic sections of society. The treatment for every patient is of the same quality, though the facilities vary according to the choice the patient makes. \n There are general facilities at very low cost, as well as private facilities, which are more comfortable and upscale.
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Our trauma and emergency team offers emergency treatment for urgent, sight-threatening problems and for issues that cannot wait for a routine appointment. <br/><br/>
+                 On arrival, you will be assessed by a doctor in emergency room who will determine how serious your condition is and prioritise you for treatment accordingly.  <br/><br/> Sometimes, we’ll be able to treat your condition straight away, but sometimes we might decide to refer you to one of our more specialist services for further tests and treatments.<br/><br/>
+               In case of trauma (open or closed globe injury), patients are referred to the trauma unit where they are assessed by consultants and treated accordingly.<br/><br/>
+                Please note that we are not a general emergency and can only help with eye conditions.
+             </body>
+            </html>
+            ]]>
     </string>
     <string name="feedback">
-Islamia, as it has been known for over 50 years, is the largest multispecialty eye hospital in Bangladesh. The emphasis is on quality eye care for all socio-economic sections of society. \n The treatment for every patient is of the same quality, though the facilities vary according to the choice the patient makes.\n There are general facilities at very low cost, as well as private facilities, which are more comfortable and upscale.    </string>
+        <![CDATA[
+            <html>
+             <head></head>
+             <body style="text-align:justify;font color='#424242'; size='4';">
+                Islamia, as it has been known for over 50 years, is the largest multispecialty eye hospital in Bangladesh. </br></br>The emphasis is on quality eye care for all socio-economic sections of society. </br> The treatment for every patient is of the same quality, though the facilities vary according to the choice the patient makes.</br></br> There are general facilities at very low cost, as well as private facilities, which are more comfortable and upscale.</br>
+             </body>
+            </html>
+            ]]>
+    </string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_image">Gallery Image</string>
+
 </resources>

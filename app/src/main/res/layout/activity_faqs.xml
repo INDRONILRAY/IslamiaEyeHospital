@@ -43,9 +43,7 @@
             android:maxLines="3"
             android:paddingTop="6dp"
             android:text="@string/faq"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold"
+            style="@style/autofitstyle"
             autofit:minTextSize="14sp"
             tools:ignore="MissingConstraints" />
 
@@ -58,9 +56,7 @@
             android:maxLines="1"
             android:paddingTop="6dp"
             android:text="@string/faq2"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
+            style="@style/autofitstyle"
             autofit:minTextSize="14sp"
             tools:ignore="MissingConstraints" />
 
@@ -73,9 +69,7 @@
             android:maxLines="1"
             android:paddingTop="6dp"
             android:text="@string/faq3"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
+            style="@style/autofitstyle"
             autofit:minTextSize="14sp"
             tools:ignore="MissingConstraints" />
 
@@ -88,9 +82,7 @@
             android:maxLines="2"
             android:paddingTop="6dp"
             android:text="@string/faq4"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
+            style="@style/autofitstyle"
             autofit:minTextSize="14sp"
             tools:ignore="MissingConstraints" />
 
@@ -109,65 +101,11 @@
                 android:textAllCaps="false" />
         </LinearLayout>
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="2"
-            android:paddingTop="6dp"
-            android:text="@string/faq5"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
-
-
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
+        <WebView
+            android:id="@+id/webView7"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="35"
-            android:paddingTop="6dp"
-            android:text="@string/faq6"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="35"
-            android:paddingTop="6dp"
-            android:text="@string/faq7"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="35"
-            android:paddingTop="6dp"
-            android:text="@string/faq8"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
-
+            style="@style/autofitstyle" />
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

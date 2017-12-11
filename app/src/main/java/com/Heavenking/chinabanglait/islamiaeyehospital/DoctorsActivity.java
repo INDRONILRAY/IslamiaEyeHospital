@@ -1,6 +1,7 @@
 package com.Heavenking.chinabanglait.islamiaeyehospital;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -159,42 +160,6 @@ public class DoctorsActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        Button web = (Button) findViewById(R.id.web);
-//        web.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Intent.ACTION_VIEW);
-//                intent.setData(Uri.parse("http://www.islamia.org.bd/"));
-//                startActivity(intent);
-//            }
-//        });
-//        Button call = (Button) findViewById(R.id.call);
-//        call.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent callIntent = new Intent(Intent.ACTION_DIAL);
-//                callIntent.setData(Uri.parse("tel:09610998333"));
-//                startActivity(callIntent);
-//            }
-//        });
-//        Button email = (Button) findViewById(R.id.email);
-//        email.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent chooser=null;
-//                Intent callIntent = new Intent(Intent.ACTION_SEND);
-//                callIntent.setData(Uri.parse("mailto:"));
-//                String[] to= {"info@islamia.org.bd"};
-//                callIntent.putExtra(Intent.EXTRA_EMAIL,to);
-//                callIntent.putExtra(Intent.EXTRA_SUBJECT,"Write Subject");
-//                callIntent.putExtra(Intent.EXTRA_TEXT,"Write Message");
-//                callIntent.setType("message/rfc822");
-//                chooser = Intent.createChooser(callIntent,"Send Email");
-//                startActivity(chooser);
-//            }
-//        });
-
         mlistView = (ListView) findViewById(R.id.listView);
         CustomDoctor doctor = new CustomDoctor();
         mlistView.setAdapter(doctor);
@@ -205,8 +170,45 @@ public class DoctorsActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ImageView call = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.call);
+        call.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:09610998333"));
+                startActivity(callIntent);
+            }
+        });
+        ImageView email = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.email);
+        email.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent chooser=null;
+                Intent callIntent = new Intent(Intent.ACTION_SEND);
+                callIntent.setData(Uri.parse("mailto:"));
+                String[] to= {"info@islamia.org.bd"};
+                callIntent.putExtra(Intent.EXTRA_EMAIL,to);
+                callIntent.putExtra(Intent.EXTRA_SUBJECT,"Write Subject");
+                callIntent.putExtra(Intent.EXTRA_TEXT,"Write Message");
+                callIntent.setType("message/rfc822");
+                chooser = Intent.createChooser(callIntent,"Send Email");
+                startActivity(chooser);
+            }
+        });
+        ImageView web = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.web);
+        web.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://www.islamia.org.bd/"));
+                startActivity(intent);
+            }
+        });
     }
 
     class CustomDoctor extends BaseAdapter{

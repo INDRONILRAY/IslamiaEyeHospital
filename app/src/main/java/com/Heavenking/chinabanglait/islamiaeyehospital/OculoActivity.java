@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.ImageView;
 
 public class OculoActivity extends AppCompatActivity {
@@ -90,41 +91,6 @@ public class OculoActivity extends AppCompatActivity {
             "Paediatric DCR-Outcome of 44 cases\n" +
             "Besides six researches (three interventional) are going on.";
     String nam2 = "Dr. Sadia Sultana";
-
-    String doc3 = "Dr. Riffat Rashid is a bright promising name in the field of Oculoplasty in Bangladesh. She is one of the few leading oculoplastic surgeons of the country. She is also a trainer under whom two long term fellows are receiving training. She is the pioneer team member of Oculoplasty team of this apical center.\n" +
-            "\n" +
-            "An young experienced surgeon Dr.Riffat performed more than 2000 DCRs and other lacrimal surgeries, 200 ptosis surgeries, 500 lid reconstructions and more than 300 orbital surgeries.\n" +
-            "\n" +
-            "Dr. Riffat travelled numbers of country including China, Hongkong, India, Srilanka, Malaysia, Singapore for academic and leisure purpose.\n" +
-            "\n" +
-            "Specialty\n" +
-            "\n" +
-            "Ophthalmic plastic and reconstructive surgeries\n" +
-            "Orbital surgery and diseases\n" +
-            "Tear drainage system surgeries\n" +
-            "Botox and fillers\n" +
-            "Qualifications\n" +
-            "\n" +
-            "MS in Ophthalmology from University of Dhaka, Bangladesh\n" +
-            "Training in Ophthalmic plastic and reconstructive surgery from Moorfiel’s Eye Hospital, London\n" +
-            "Received fellowship in Oculoplastic surgery, Orbit and Ocular oncology from Ispahani Islamia Eye Institute and Hospital.\n" +
-            "Dr.Riffat is a also teacher and mentor and an examiner for the optometrist under state medicine faculty.\n" +
-            "Experience\n" +
-            "\n" +
-            "Junior consultant cum Registrar\n" +
-            "Junior consultant cum Assistant Professor(?)\n" +
-            "Research Activities \n" +
-            "\n" +
-            "Out come and analysis of 22 failed DCR cases\n" +
-            "Retinoblastoma - New international grouping, staging and management (review)\n" +
-            "Primary tuberculosis of Lid - report of three cases.\n" +
-            "Orbital Neurobalstoma- A case report\n" +
-            "Evisceration with Scleral fashioning- A novel technique for managing phthisis bulbi with maximal cosmesis.\n" +
-            "Conjunctival Acanthoma: A case report\n" +
-            "Supramaximal LPSR- an ideal techinique for correction of Ptosis with minimal LPS function with resotoration of optimal cosmesis and good functions.\n" +
-            "Histophologic analysis of primary Enucleation of RB cases\n" +
-            "Paediatric DCR -Outcome of 44 cases\n" +
-            "Besides six researches ( three interventional) are going on.";
     String nam3 = "Dr. Riffat Rashid";
 
     @Override
@@ -138,7 +104,7 @@ public class OculoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(OculoActivity.this,Doctor_DetailsActivity.class);
                 i.putExtra("e2",nam);
-                i.putExtra("e1",doc1);
+                i.putExtra("e1","file:///android_asset/nazmul.html");
                 i.putExtra("res",R.drawable.doxxx);
                 startActivity(i);
             }
@@ -150,7 +116,7 @@ public class OculoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(OculoActivity.this,Doctor_DetailsActivity.class);
                 i.putExtra("e2",nam2);
-                i.putExtra("e1",doc2);
+                i.putExtra("e1","file:///android_asset/sadia.html");
                 i.putExtra("res",R.drawable.do17);
                 startActivity(i);
             }
@@ -162,10 +128,13 @@ public class OculoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(OculoActivity.this,Doctor_DetailsActivity.class);
                 i.putExtra("e2",nam3);
-                i.putExtra("e1",doc3);
+                i.putExtra("e1","file:///android_asset/riffat.html");
                 i.putExtra("res",R.drawable.do18);
                 startActivity(i);
             }
         });
+
+        WebView webView = (WebView) findViewById(R.id.webView7);
+        webView.loadData(getString(R.string.oculo), "text/html; charset=utf-8", "utf-8");
     }
 }

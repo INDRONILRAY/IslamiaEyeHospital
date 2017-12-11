@@ -26,6 +26,7 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/appback"
@@ -33,21 +34,12 @@
                 android:textAllCaps="false" />
         </LinearLayout>
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="353dp"
-            android:layout_height="200dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="10"
-            android:paddingTop="6dp"
-            android:text="@string/catera"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints"
-            tools:text="@string/catera" />
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/autofitstyle" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,6 +47,7 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/appback"
@@ -155,74 +148,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp">
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp">
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/appback"
@@ -230,20 +160,11 @@
                 android:textAllCaps="false" />
         </LinearLayout>
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
+        <WebView
+            android:id="@+id/webView4"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="30"
-            android:paddingTop="6dp"
-            android:text="@string/catera1"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
+            style="@style/autofitstyle" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -251,6 +172,7 @@
             android:orientation="horizontal">
 
             <Button
+                style="@style/allbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/appback"
@@ -258,20 +180,11 @@
                 android:textAllCaps="false" />
         </LinearLayout>
 
-        <me.grantland.widget.AutofitTextView
-            android:layout_width="wrap_content"
-            android:layout_height="135dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:maxLines="10"
-            android:paddingTop="6dp"
-            android:text="@string/catera2"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            autofit:minTextSize="14sp"
-            tools:ignore="MissingConstraints" />
+        <WebView
+            android:id="@+id/webView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/autofitstyle" />
 
 
     </LinearLayout>

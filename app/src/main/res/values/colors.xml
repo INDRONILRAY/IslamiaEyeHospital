@@ -6,4 +6,6 @@
     <color name="blue">#42A5F5</color>
     <color name="appback">#81D4FA</color>
     <color name="white">#E1F5FE</color>
+    <color name="menu_text_color">#212121</color>
+    <color name="textview">#424242</color>
 </resources>
